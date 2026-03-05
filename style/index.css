@@ -46,7 +46,7 @@ video {
 	width: 55%;
 }
 
-.header-item div:not(.seleted-item) {
+.header-item div:not(.selected-item) {
     opacity: 0.6;
 }
 
@@ -91,6 +91,24 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+
+.logo {
+	width: 50px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.add-dot {
+  width: 20px;                
+  height: 20px;               
+  background-color: #ed4956; 
+  border-radius: 50%;         
+  display: flex;              
+  align-items: center;        
+  justify-content: center;
+  transform: translate(70%, -85%);
+  font-size: 20px;
 }
 
 /* ---------------------
