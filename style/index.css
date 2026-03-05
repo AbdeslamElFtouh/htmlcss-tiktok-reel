@@ -31,9 +31,38 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
+	display: flex;
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+
+.header-item{
+	display: flex;
+	justify-content: space-around;
+	width: 55%;
+}
+
+.header-item div:not(.seleted-item) {
+    opacity: 0.6;
+}
+
+.notification-dot {
+  position: absolute;
+  top: 7px;
+  right: 209px;
+  width: 8px;
+  height: 8px;
+  background-color: #ed4956; 
+  border-radius: 50%;
+  }
+
+.underline {
+    text-decoration: underline;
+    text-underline-offset: 8px; 
 }
 
 /* Footer */
@@ -44,6 +73,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
+	display: flex;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -55,6 +85,9 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
