@@ -77,7 +77,6 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	align-items: center;
 	background-color: black;
 	text-align: center;
 	
@@ -157,6 +156,41 @@ footer {
 
 .bi-heart-fill:hover {
   color: red;
+}
+
+.description {
+	width: 70%;
+	position: absolute;
+	bottom: 100px;
+	left: 10px;
+	color: #fff;
+	font-size: 15px;
+
+}
+
+.description-title {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+.hidden-checkbox {
+  display: none;
+}
+
+.more-text {
+  display: none;
+}
+
+.read-more-button::after {
+  content: "Vedi altro";
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hidden-checkbox:checked + .caption .more-text {
+  display: inline;
 }
 
 /* ---------------------
