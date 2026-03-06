@@ -92,7 +92,7 @@ footer {
 .mex-num {
   width: 25px;                
   height: 20px;               
-  background-color: #ed4956; 
+  background-color: red; 
   border-radius: 35%;         
   display: flex;              
   align-items: center;        
@@ -102,6 +102,10 @@ footer {
   position: absolute;
   right: 50%;
   bottom: 50%;
+}
+
+.nav-bar div:not(.home,.mex-num,.add-friends) {
+    opacity: 0.6;
 }
 
 /* Sidebar */
