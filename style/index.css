@@ -54,7 +54,7 @@ video {
 .notification-dot {
   position: absolute;
   top: 7px;
-  right: 209px;
+  right: 200px;
   width: 8px;
   height: 8px;
   background-color: #ed4956; 
@@ -73,16 +73,42 @@ footer {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	color: #fff;
+	color: white;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	align-items: center;
 	background-color: black;
-
+	text-align: center;
 	
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+
+.text{
+	font-size: 10px;
+}
+
+.footer-icon{
+	font-size: 25px;
+	width: calc(100% / 5);	
+	position: relative;
+}
+
+.mex-num {
+  width: 25px;                
+  height: 20px;               
+  background-color: #ed4956; 
+  border-radius: 35%;         
+  display: flex;              
+  align-items: center;        
+  justify-content: center;
+  transform: translate(100%, -30%);
+  font-size: 15px;
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
 }
 
 /* Sidebar */
