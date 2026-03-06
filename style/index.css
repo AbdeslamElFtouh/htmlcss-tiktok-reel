@@ -7,6 +7,7 @@
 body {
 	margin: 0 auto;
 	font-family: 'TikTok Sans', sans-serif;
+	border-radius: 10px;
 }
 
 video {
@@ -34,7 +35,7 @@ video {
 	display: flex;
 	color: #fff;
 	padding: 10px;
-	font-size: 20px;
+	font-size: 25px;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -74,6 +75,11 @@ footer {
 	bottom: 0;
 	color: #fff;
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+
+	
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -84,10 +90,12 @@ footer {
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
-	top: 40%;
+	top: 35%;
 	display: flex;
 	flex-direction: column;
-	color: #fff;
+	justify-content: center;
+	color: #ffffff;
+	text-align: center;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
@@ -107,8 +115,22 @@ footer {
   display: flex;              
   align-items: center;        
   justify-content: center;
-  transform: translate(70%, -85%);
+  transform: translate(75%, -81%);
   font-size: 20px;
+}
+
+.sidebar-icon{
+	font-size: 35px;
+	margin-bottom: 15px;
+
+}
+
+.number {
+	font-size: 15px;
+}
+
+.bi-heart-fill:hover {
+  color: red;
 }
 
 /* ---------------------
