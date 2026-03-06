@@ -36,9 +36,6 @@ video {
 	color: #fff;
 	padding: 10px;
 	font-size: 25px;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
 }
 
 .header-item{
@@ -79,10 +76,7 @@ footer {
 	align-items: center;
 	background-color: black;
 	text-align: center;
-	
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
+	height: 8%;
 }
 
 .text{
@@ -121,9 +115,6 @@ footer {
 	justify-content: center;
 	color: #ffffff;
 	text-align: center;
-
-	/* Inserisci qui sotto 
-	le tue regole, se necessario. */
 }
 
 .logo {
@@ -161,8 +152,8 @@ footer {
 .description {
 	width: 70%;
 	position: absolute;
-	bottom: 100px;
-	left: 10px;
+	bottom: 10%;
+	left: 15px;
 	color: #fff;
 	font-size: 15px;
 
@@ -192,25 +183,3 @@ footer {
 .hidden-checkbox:checked + .caption .more-text {
   display: inline;
 }
-
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
-.debug footer {
-	min-height: 100px;
-	border: 2px dashed #fff;
-}
-
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
-}
-
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
-
-/* --------------------- */
