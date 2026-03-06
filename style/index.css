@@ -104,7 +104,7 @@ footer {
   bottom: 50%;
 }
 
-.nav-bar div:not(.home,.mex-num,.add-friends) {
+.footer-icon:hover i:not(.bi-file-plus-fill){
     opacity: 0.6;
 }
 
